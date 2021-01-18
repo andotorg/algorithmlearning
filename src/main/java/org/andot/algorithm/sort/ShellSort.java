@@ -3,6 +3,11 @@ package org.andot.algorithm.sort;
 import org.andot.algorithm.common.PrintUtil;
 
 /**
+ * 希尔排序(Shell’s Sort)是插入排序的一种，是直接插入排序算法的一种更高版本的改进版本。
+ *
+ * 把记录按步长gap分组，对每组记录采用直接插入排序方法进行排序；
+ * 随着步长逐渐减小，所分成的组包含的记录越来越多；
+ * 当步长值减小到1时，整个数据合成一组，构成一组有序记录，完成排序；
  * @author Lucas
  */
 public class ShellSort {
